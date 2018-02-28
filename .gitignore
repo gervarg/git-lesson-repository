@@ -1,3 +1,13 @@
 #This is a test gitignore file
 #created for Lightning talk
 *.txt
+#
+#but track this please
+!something.txt
+#
+#
+#if I want to exclude files with special chars
+*\gittest\gittestsubdir/!testing.whatev
+#
+#
+
