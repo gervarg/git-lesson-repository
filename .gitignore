@@ -1,13 +1,14 @@
 #This is a test gitignore file
 #created for Lightning talk
 *.txt
-#
+#exclude all filed with video starting
+Video.*
 #but track this please
-!something.txt
+#!something.txt
 #
-#
+/gittest/**
 #if I want to exclude files with special chars
-*\gittest\gittestsubdir/!testing.whatev
+\!testingthis.whatev
 #
-#
-
+/gittest/**/subsubdir
+#!gittest/gittestsubdir/*
